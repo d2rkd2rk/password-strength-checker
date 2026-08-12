@@ -22,12 +22,18 @@
 
 ### 🐧 لمستخدمي Linux:
 1. حمّل ملف `PASSCHK`.
-2. افتح الترمينال واكتب الاوامر دول للتشغيل:
+2. افتح الترمينال واكتب الاوامر دي بالترتيب للتشغيل:
 
 git clone https://github.com/username/password-strength-checker.git
 
 
 cd password-strength-checker
+
+
+sudo apt update && sudo apt install dos2unix -y
+
+
+dos2unix PASSCHK.py
 
 
 chmod +x PASSCHK.py
