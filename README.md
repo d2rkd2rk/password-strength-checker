@@ -39,4 +39,4 @@ dos2unix PASSCHK.py
 chmod +x PASSCHK.py
 
 
-./PASSCHK.py
+python3 PASSCHK.py
