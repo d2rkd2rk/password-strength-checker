@@ -22,6 +22,8 @@
 
 ### 🐧 لمستخدمي Linux:
 1. حمّل ملف `PASSCHK`.
-2. افتح الترمينال واكتب الأمرين دول للتشغيل:
+2. افتح الترمينال واكتب الاوامر دول للتشغيل:
+git clone https://github.com/username/password-strength-checker.git
+cd password-strength-checker
 chmod +x PASSCHK
 ./PASSCHK
